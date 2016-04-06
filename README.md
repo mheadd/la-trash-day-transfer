@@ -12,4 +12,8 @@ Built with:
 * White Pages Pro [Reverse Phone Lookup API](http://pro.whitepages.com/developer/documentation/reverse-phone-api/) (API Key required).
 * ArcGIS Service from LA GeoHub for [Solids Collection Service District Days](http://geohub.lacity.org/datasets/803ee5b68546441681922ab5a5a7e1c1_22).
 
-This example is tailored for the City of Los Angeles, but could be easily ported to another city with a similar trash pickup API.
+This example is tailored for the City of Los Angeles, but could be easily ported to another city with a [similar trash pickup API](https://alpha.phila.gov/trashday/).
+
+This example focuses on trash pick up days, but this same approach could be used for all kinds of city services that have a location or time component - property tax remittance, alternate side street parking, scheduled street closures, etc.
+
+This is also one example of the [approach of "cross-selling" public services](http://techpresident.com/news/25354/pdf-italia-tom-steinberg-explored-5-digital-asks-we-should-make-our-government). When a user engages with government on one service, provide contextualized information on that channel to them for other services that they might use or take advantage of.
