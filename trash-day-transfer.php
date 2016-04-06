@@ -60,7 +60,7 @@ if(checkAreaCode($callerID)) {
 		$coordinates = $phoneData->results[0]->belongs_to[0]->locations[0]->lat_long;
 		$trashDayData = lookUpTrashDay($coordinates->longitude . ',' . $coordinates->latitude);
 		$trashDay = $trashDayData->features[0]->attributes->Day
-		$offset = ($daysOfWeek[$trashDay] - getCurrentDay());
+		$offset = ($daysOfWeek[$trashDay] - $daysOfWeek[getCurrentDay()]);
 
 		// If current day is within 2 days of trash day, prompt caller appropriately.
 		if(3 > $offset && $offset >= 0) {
