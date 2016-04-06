@@ -1,8 +1,8 @@
 # LA Trash Day Transfer
 
-A phone script that looks up the shceduled trash day of a caller - based on caller ID - and prompts them if within 2 days to remind them to take out their trash.
+A phone script that looks up the scheduled trash day of a caller - based on caller ID - and prompts them if within 2 days to remind them to take out their trash.
 
-The approach shown in this script is meant to be used in conjuntion with municipal customer serivce lines (e.g. 311). This functionaluty could be used as part of the on hold message for callers as they wait in queue for an agent.
+The approach shown in this script is meant to be used in conjuntion with municipal customer service lines (e.g. 311). This functionality could be used as part of the on hold message for callers as they wait in queue for an agent.
 
 ## How it works
 
