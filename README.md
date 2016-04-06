@@ -9,7 +9,7 @@ The approach shown in this script is meant to be used in conjuntion with municip
 Built with:
 
 * [Tropo](https://www.tropo.com/) cloud telephony platform.
-* White Pages Pro [Reverse Phone Lookup API](Reverse Phone API) (API Key required).
+* White Pages Pro [Reverse Phone Lookup API](http://pro.whitepages.com/developer/documentation/reverse-phone-api/) (API Key required).
 * ArcGIS Service from LA GeoHub for [Solids Collection Service District Days](http://geohub.lacity.org/datasets/803ee5b68546441681922ab5a5a7e1c1_22).
 
 This example is tailored for the City of Los Angeles, but could be easily ported to another city with a similar trash pickup API.
